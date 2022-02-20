@@ -1,7 +1,9 @@
+import Dashboard from "./Dashboard/Dashboard";
+
 function App() {
   return (
     <h1 className="text-3xl font-bold underline bg-pink-50 h-screen">
-      Hello world!
+      <Dashboard />
     </h1>
   );
 }
